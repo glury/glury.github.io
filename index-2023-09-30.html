@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Triforce</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Simplified - A One Page Template</title>
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500|Lato|Open+Sans' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<script src="https://use.fontawesome.com/2c22feb109.js"></script>
+<script>
+  // https://codepen.io/audreydc/pen/ZOWvBj
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_pHlLoB15DzHKFJV1K48lteEPKxm8F89ZSxMaIvQcxMS',{api_host:'https://app.posthog.com'})
+</script><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="data:image/png;base64,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" alt="Glury Logo"></a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                    <li><a href="#values">Values</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                  <li><a href="#team">TEAM</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="intro-heading">Glury</h1>
+                        <p class="intro-text">
+                            Empowering Content Creators
+                        </p>
+                        <a href="#about" class="btn btn-default page-scroll">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <article>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-heading">About Us</h2>
+                        <p class="lead">Glury is a decentralized peer-to-peer content delivery network dedicated to empowering content creators.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+<section id="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading">See Glury in Action</h2>
+                <!-- Embed Video Here -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8rgEbJ2YDCA" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+  
+    <!-- VALUES SECTION -->
+<section id="values">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section-heading">Our Values</h2>
+          </div>
+            
+        </div>
+        <div class="row">
+            <article class="col-md-4">
+                <div class="info">
+                    <div class="description">
+                        <h4 class="info-title">
+                <span class="emoji">🌈✍️</span>Creators First
+            </h4>
+                        <h5 class="desc">
+                            At Glury, everything goes to the creators. We prioritize content creators as the first class citizens in our network.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="info">
+                    <div class="description">
+                        <h4 class="info-title">
+    <span class="emoji">🔒🔑</span>Privacy Oriented
+</h4>
+                        <h5 class="desc">
+                            We value your privacy, providing a platform that is censor resistant and secures your content and data.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="info">
+
+                    <div class="description">
+                        <h4 class="info-title">
+    <span class="emoji">💎👾</span>Web3 Friendly
+</h4>
+                        <h5 class="desc">
+                            Glury is aligned with the latest web3 technologies, ensuring seamless integration and functionality.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="info">
+                    
+                    <div class="description">
+                        <h4 class="info-title">
+    <span class="emoji">🌳🌍</span>Green Conscious
+</h4>
+                        <h5 class="desc">
+                            Utilizing current infrastructure, Glury is committed to minimizing environmental impact for a greener earth.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="info">
+                    
+                    <div class="description">
+                        <h4 class="info-title">
+    <span class="emoji">🔛🔝</span>Scalable
+</h4>
+                        <h5 class="desc">
+                            Our network is designed to grow and shrink on-demand, ensuring scalable and efficient operations.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4">
+                <div class="info">
+                   
+                    <div class="description">
+                       <h4 class="info-title">
+    <span class="emoji">🤝🌟</span>Community Focused
+</h4>
+                        <h5 class="desc">
+                            Constantly evolving, Glury leads in innovation ensuring that our community has access to the best and latest features.
+                        </h5>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+    <!-- FAQ SECTION -->
+<section id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-left">
+                <h2 class="section-heading">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <b class="faq-question">I'm a creator. What opportunities are available to me?</b>
+                        <p>You have boundless opportunities as long as your content generates interest. Engage in a variety of activities including live streams, gaming, and battles to captivate your audience.</p>
+                    </div>
+                    <div class="faq-item">
+                        <b class="faq-question">How is payment handled for creators?</b>
+                        <p>Like many other platforms, fans directly pay for the content they value the most. This approach ensures that creators are compensated fairly for their work.</p>
+                    </div>
+                    <div class="faq-item">
+                        <b class="faq-question">Who bears the cost for infrastructure?</b>
+                        <p>Protocol participants who supply bandwidth bear the cost for infrastructure. They are fairly compensated at market rates for their valuable service contribution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading">Meet Our Team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="team-member">
+                    <img src="/contents/data/2018/09/ref_zz.png" class="img-fluid rounded-circle mb-3" alt="Žiga Zupanec">
+                    <h3>Žiga Zupanec</h3>
+                    <p>Triforce Ventures founder along with distributed and decentralized video streaming vision. Žiga specializes in leadership, data science, and strategic planning.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <img src="/contents/data/2018/09/upload-selfie-circle.png" class="img-fluid rounded-circle mb-3" alt="Andrej Zupanec">
+                    <h3>Andrej Zupanec</h3>
+                    <p>Experienced in video production since 2011, Andrej is a writer, producer, and creator who staunchly believes in the power of live streaming.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <img src="/contents/data/2018/09/lenart-cepon.png" class="img-fluid rounded-circle mb-3" alt="Lenart Čepon">
+                    <h3>Lenart Čepon</h3>
+                    <p>As the Innovation Business Developer in our startup, Lenart drives growth through strategic innovation, identifies opportunities, and fosters key partnerships.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <img src="/contents/data/2018/09/marie-pic.png" class="img-fluid rounded-circle mb-3" alt="Marie Kollarczyk">
+                    <h3>Marie Kollarczyk</h3>
+                    <p>UI and UX designer, Digital Media MSc, with experience in mobile app and video game design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- CONTACT FORM -->
+<section id="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-heading">Get the front seat, enter your email</h2>
+                <div class="d-flex justify-content-center flex-center-form"> <!-- Added div with Bootstrap classes to center content -->
+                    <div style="width: 300px; height: 136px; overflow: hidden">
+                        <iframe style="position: relative; left: -40px; top: -300px" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLScnkmsRIkU-z3NluUnA-sdvc5VGZM8g4Gc0_wl0kKh4ic6mBQ/viewform?embedded=true" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+  
+    <!-- FOOTER SECTION -->
+    <footer id="footer">
+        <div class="container text-center">
+            <p>Created with ❤️ by Glury</p>
+        </div>
+    </footer>
+
+</body>
+<!-- partial -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+</body>
+</html>
